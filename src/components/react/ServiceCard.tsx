@@ -30,8 +30,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, onBook }) => {
         {/* Bottom Row: Number & Title */}
         <div className="mt-auto">
           <span className="block text-gray-400 text-[10px] md:text-xs mb-1 md:mb-2">({service.number})</span>
-          <h3 className="text-lg md:text-3xl text-gray-900 font-medium leading-tight break-words hyphens-auto">
-            {service.title} <span className="font-serif italic font-normal block md:inline break-all md:break-words">{service.italicWord}</span>
+          <h3 className="text-lg md:text-3xl text-gray-900 font-medium leading-tight">
+            {service.title} <span className="font-serif italic font-normal block md:inline text-sm md:text-3xl">{service.italicWord}</span>
           </h3>
         </div>
       </div>
@@ -59,9 +59,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, onBook }) => {
         <div className="mt-auto space-y-2 md:space-y-4">
           <span className="block text-white/50 text-[10px] md:text-xs">({service.number})</span>
 
-          <h3 className="text-lg md:text-3xl text-white font-medium leading-tight break-words hyphens-auto">
+          <h3 className="text-lg md:text-3xl text-white font-medium leading-tight">
             {service.title} <br className="hidden md:block" />
-            <span className="font-serif italic font-normal text-white ml-1 md:ml-0 block md:inline break-all md:break-words">{service.italicWord}</span>
+            <span className="font-serif italic font-normal text-white ml-1 md:ml-0 block md:inline text-sm md:text-3xl">{service.italicWord}</span>
           </h3>
 
           <p className="text-gray-400 text-[10px] md:text-sm leading-relaxed max-w-[90%] line-clamp-3 md:line-clamp-none">
