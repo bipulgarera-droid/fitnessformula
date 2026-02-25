@@ -30,7 +30,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ businessName = "Fitness For
           <div className="lg:w-1/3 flex flex-col items-center lg:items-end w-full mt-8 lg:mt-0">
             <div className="relative w-full max-w-sm mb-8">
               <img
-                src="/images/about_award.jpg"
+                src="/images/about_award.png"
                 alt="Dietitian Award with Jacqueline Fernandez"
                 className="w-full h-auto rounded-none object-cover aspect-[4/5] shadow-xl"
               />
